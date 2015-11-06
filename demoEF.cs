@@ -9,7 +9,6 @@ namespace Ejercicio001
    public class demoEF:DbContext
     {
        public DbSet<Empleado> Empleados { get; set; }
-
-
+       public DbSet<Departamento> Departamentos { get; set; }
     }
 }

@@ -16,3 +16,4 @@ c:\users\administador\documents\visual studio 2012\Projects\Ejercicio001\Ejercic
 c:\users\administador\documents\visual studio 2012\Projects\Ejercicio001\Ejercicio001\obj\Debug\Ejercicio001.exe
 c:\users\administador\documents\visual studio 2012\Projects\Ejercicio001\Ejercicio001\obj\Debug\Ejercicio001.pdb
 c:\users\administador\documents\visual studio 2012\Projects\Ejercicio001\Ejercicio001\obj\Debug\Ejercicio001.Migrations.empleadoTabla.resources
+C:\Users\administador\documents\visual studio 2012\Projects\Ejercicio001\Ejercicio001\obj\Debug\Ejercicio001.Migrations.deps.resources

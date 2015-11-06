@@ -69,6 +69,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="demoEF.cs" />
+    <Compile Include="Departamento.cs" />
     <Compile Include="Empleado.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -79,6 +80,10 @@
     <Compile Include="Migrations\201510281533570_empleadoTabla.cs" />
     <Compile Include="Migrations\201510281533570_empleadoTabla.Designer.cs">
       <DependentUpon>201510281533570_empleadoTabla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511061549373_deps.cs" />
+    <Compile Include="Migrations\201511061549373_deps.Designer.cs">
+      <DependentUpon>201511061549373_deps.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -97,6 +102,9 @@
     <EmbeddedResource Include="Migrations\201510281533570_empleadoTabla.resx">
       <DependentUpon>201510281533570_empleadoTabla.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511061549373_deps.resx">
+      <DependentUpon>201511061549373_deps.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -109,7 +117,9 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
